@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about us.html">About us</a></li>
+        <li><a href="course details.html">course details</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="choose.html">course details</a></li>
+    </ul>
+    <div id="id3" style="width:100px;height:30px;float:left;border:0px solid blue"><div2>
+    <br>
+    </div2><img src="image/2.png" class="writer-img">
+    </div2></div>
+<h3 class="byline">Article By: Gethin(Wu guoxiang)
+<div class="content">
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="image/8.png" style="width:100%">
+        <img class="mySlides" src="image/7.png" style="width:100%">
+        <img class="mySlides" src="image/6.png" style="width:100%">
+        <img class="mySlides" src="image/9.png" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+      <div align="center">
+        <p2><img src="image/10.png" alt="10" style="width:170px;height:170px;margin-left:50px;">This is an excellent school where you can learn many skills.The purpose of our website is to attract more people to come to our training school to enjoy the quality of education, so that people can feel happy in learning.</p2><br>
+      <p2>Our Slogan:Make yourself perfect, get an education first.</p2><br>
+      <p2>Our Values:Our education will have a better future for our students, we only cultivate the elite.</p2>
+      <br><br><img src="image/1.png"width="900">
+      </div>
+</div>
+</body>
