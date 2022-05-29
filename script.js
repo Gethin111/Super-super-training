@@ -8,6 +8,10 @@ function validateform(){
     alert("Information cannot be empty");  
     return false;  
   }
+  else if(phone.length!==6){
+    alert("please enter 6 digits");
+    return false;
+  }
 }
 //Gethin(Wu Guoxiang)The main function of this function is to let the user to enter text and numbers, when there is no input or text and number input error display: the information can not be empty. When the input is correct, it will show the login success, which is the function of this script, widely used in the login interface of the input.
 
